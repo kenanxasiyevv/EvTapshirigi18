@@ -3,7 +3,8 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {   //Qonsu elementler arasindaki ishare deyishmelerinin sayi
+            
             Console.Write("Massivin uzunlugunu daxil edin: ");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
